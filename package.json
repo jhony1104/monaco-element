@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "monaco-editor": "^0.17.0"
+  },
+  "devDependencies": {
+    "css-loader": "^3.0.0",
+    "file-loader": "^4.0.0",
+    "monaco-editor-webpack-plugin": "^1.7.0",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.1.3",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4"
+  }
+}
