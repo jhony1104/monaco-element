@@ -28,6 +28,7 @@ customElements.define('monaco-editor', class extends HTMLElement {
 
             // for 10 seconds try every 100ms if not loaded
             const retFunc = () => {
+                counter--;
                 if (this.loaded) {
                     resolve(this.contentIframe.contentWindow.editor);
                 } else if (counter == 0) {
