@@ -5,8 +5,8 @@ const MonacoWebpackPlugin = require('monaco-editor-webpack-plugin');
 module.exports = {
     mode: 'development',
     entry: {
-        "monaco-editor": './monaco-editor.js',
-        "monaco-element": './monaco-element.js'
+        "monaco-editor": './src/monaco-editor.js',
+        "monaco-element": './src/monaco-element.js'
     },
     resolve: {
         alias: {
